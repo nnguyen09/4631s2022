@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Cat Shopping Store Applcation</string>
+
+    <string-array name="CatProducts">
+        <item>CatNip</item>
+        <item>CatHouse</item>
+        <item>CatTree</item>
+        <item>CatClothing</item>
+    </string-array>
+
 </resources>
+
+//lol
