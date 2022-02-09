@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         txtLoginOnClick();
     }
-    //ughgugugh
+    //ughgugughgdgdgd
 
      public void txtLoginOnClick(){
         txtLogin.setOnClickListener(new View.OnClickListener() {
