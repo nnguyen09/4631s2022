@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         txtLoginOnClick();
         txtAboutOnClick();
 
-
-
+        //underline signup text
+        //txtRegister.setPaintFlags(txtRegister.getPaintFlags() |   Paint.UNDERLINE_TEXT_FLAG);
 
     }
     public void txtAboutOnClick(){
@@ -51,5 +51,6 @@ public class MainActivity extends AppCompatActivity {
         //init txtLogin
         txtLogin = findViewById(R.id.txtLogin);
         btnAbout = findViewById(R.id.btnAbout);
+        txtRegister = findViewById(R.id.txtSignUp);
     }
 }
