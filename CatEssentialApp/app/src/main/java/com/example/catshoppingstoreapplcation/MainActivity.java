@@ -5,17 +5,36 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
+
+//this is a test
 public class MainActivity extends AppCompatActivity {
-    TextView txtLogin;
+    private TextView txtLogin, txtRegister;
+    private Button btnAbout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //init txtLogin
-        txtLogin = findViewById(R.id.txtLogin);
+        initView();
+        txtLoginOnClick();
+        txtAboutOnClick();
+
+
+
+
+    }
+    public void txtAboutOnClick(){
+        btnAbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent about = new Intent(MainActivity.this, About.class);
+                startActivity(about);
+            }
+        });
     }
 
     public void txtLoginOnClick(){
@@ -26,5 +45,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(login);
             }
         });
+    }
+
+    private void initView(){
+        //init txtLogin
+        txtLogin = findViewById(R.id.txtLogin);
+        btnAbout = findViewById(R.id.btnAbout);
     }
 }
