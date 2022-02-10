@@ -23,10 +23,11 @@ public class MainActivity extends AppCompatActivity {
         txtLoginOnClick();
         txtAboutOnClick();
 
-        //underline signup text
-        //txtRegister.setPaintFlags(txtRegister.getPaintFlags() |   Paint.UNDERLINE_TEXT_FLAG);
-
     }
+
+    //handling
+
+    //handling button about on click
     public void txtAboutOnClick(){
         btnAbout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //creating login page
     public void txtLoginOnClick(){
         txtLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,10 +49,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //init textview and button view
     private void initView(){
         //init txtLogin
         txtLogin = findViewById(R.id.txtLogin);
+        //init about Button
         btnAbout = findViewById(R.id.btnAbout);
+        //init sign up text view
         txtRegister = findViewById(R.id.txtSignUp);
     }
 }
