@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "356464244763",
+    "project_id": "catessentialapp",
+    "storage_bucket": "catessentialapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356464244763:android:c44e6817d349e1d6e860be",
+        "android_client_info": {
+          "package_name": "com.example.catshoppingstoreapplcation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356464244763-jdkblqd9te0a38mi4fo0kuvusrm9jm8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXkg71neT_4N9STJL5z97PV40UQaemYUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356464244763-jdkblqd9te0a38mi4fo0kuvusrm9jm8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
