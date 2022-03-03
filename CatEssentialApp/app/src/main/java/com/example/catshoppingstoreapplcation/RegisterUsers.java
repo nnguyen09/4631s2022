@@ -3,6 +3,7 @@ package com.example.catshoppingstoreapplcation;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -30,6 +31,8 @@ public class RegisterUsers extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_users);
+
+        mAuth = FirebaseAuth.getInstance();
 
         registerUser = findViewById(R.id.btnRegister);
         registerUser.setOnClickListener(this);
@@ -99,12 +102,18 @@ public class RegisterUsers extends AppCompatActivity implements View.OnClickList
                                     if(task.isSuccessful()){
                                         Toast.makeText(RegisterUsers.this,"User has been register successfully!", Toast.LENGTH_LONG).show();
                                         progressBar.setVisibility(View.GONE);
+                                        startActivity(new Intent(RegisterUsers.this, Login.class));
+
                                     }else{
                                         Toast.makeText(RegisterUsers.this, "Failed to register! Try again", Toast.LENGTH_SHORT).show();
                                         progressBar.setVisibility(View.GONE);
                                     }
+
                                 }
-                            })
+                            });
+                        }else{
+                            Toast.makeText(RegisterUsers.this, "Failed to register! Try again", Toast.LENGTH_SHORT).show();
+                            progressBar.setVisibility(View.GONE);
                         }
                     }
                 });
