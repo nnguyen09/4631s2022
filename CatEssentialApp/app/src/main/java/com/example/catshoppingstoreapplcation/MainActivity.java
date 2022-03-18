@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         txtLoginOnClick();
         txtAboutOnClick();
 
+        txtRegisterOnClick();
+
     }
 
     //handling
@@ -49,6 +51,17 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //direct to register class
+    public void txtRegisterOnClick(){
+        txtRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent login = new Intent(MainActivity.this, RegisterUsers.class);
+                startActivity(login);
+            }
+        });
+    }
+
     //init textview and button view
     private void initView(){
         //init txtLogin
@@ -57,5 +70,7 @@ public class MainActivity extends AppCompatActivity {
         btnAbout = findViewById(R.id.btnAbout);
         //init sign up text view
         txtRegister = findViewById(R.id.txtSignUp);
+
+
     }
 }

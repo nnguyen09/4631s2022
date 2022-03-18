@@ -7,10 +7,11 @@
         <entry key="app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.2078125" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3609375" />
         <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.19947916666666668" />
-        <entry key="app/src/main/res/layout/activity_about.xml" value="0.3307291666666667" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.10364145658263306" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.34479166666666666" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_register_users.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_shopping.xml" value="0.20104166666666667" />
         <entry key="app/src/main/res/menu/navigation.xml" value="0.34479166666666666" />
       </map>
     </option>

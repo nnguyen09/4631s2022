@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CatShoppingStoreApplcation">
         <activity
+            android:name=".Shopping"
+            android:exported="true" />
+        <activity
             android:name=".RegisterUsers"
             android:exported="true" />
         <activity
