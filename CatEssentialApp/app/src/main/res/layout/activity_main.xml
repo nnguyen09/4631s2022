@@ -5,53 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="#714949"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/txtSearch"
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="36dp"
-        android:text="Search"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".views.MainActivity">
 
     <TextView
         android:id="@+id/txtLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="208dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="36dp"
         android:text="Login"
         android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/txtSearch"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="29dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="36dp"
-        app:layout_constraintEnd_toStartOf="@+id/txtLogin"
-        app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintStart_toEndOf="@+id/txtSearch"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_search_24" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="37dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginRight="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
-        app:layout_constraintStart_toEndOf="@+id/txtLogin"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -71,33 +37,21 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="334dp" />
 
-    <Button
-        android:id="@+id/btnCategory"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:background="#828382"
-        android:text="Category"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3"
-        app:layout_constraintVertical_bias="0.126"
-        app:rippleColor="#3C2B2B" />
 
     <Button
         android:id="@+id/btnAbout"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
         android:background="#828382"
         android:text="About"
         android:textColor="@color/black"
+        android:textSize="18dp"
         app:iconTint="#828382"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
-        app:layout_constraintVertical_bias="0.126" />
+        app:layout_constraintVertical_bias="0.143" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -115,7 +69,7 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCategory"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCategory"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
@@ -129,13 +83,6 @@
         app:layout_constraintTop_toBottomOf="@+id/btnAbout"
         app:layout_constraintVertical_bias="0.993" />
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="549dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

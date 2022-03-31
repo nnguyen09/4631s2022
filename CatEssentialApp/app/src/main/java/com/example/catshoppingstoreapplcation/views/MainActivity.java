@@ -1,4 +1,4 @@
-package com.example.catshoppingstoreapplcation;
+package com.example.catshoppingstoreapplcation.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,11 +8,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.catshoppingstoreapplcation.About;
+import com.example.catshoppingstoreapplcation.Login;
+import com.example.catshoppingstoreapplcation.R;
+import com.example.catshoppingstoreapplcation.RegisterUsers;
+
 
 //this is a test
 public class MainActivity extends AppCompatActivity {
     private TextView txtLogin, txtRegister;
     private Button btnAbout;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +77,8 @@ public class MainActivity extends AppCompatActivity {
         //init sign up text view
         txtRegister = findViewById(R.id.txtSignUp);
 
-
     }
+
+
+
 }

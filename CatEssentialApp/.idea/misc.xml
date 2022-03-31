@@ -8,10 +8,17 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3609375" />
         <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/activity_about.xml" value="0.10364145658263306" />
+        <entry key="app/src/main/res/layout/activity_clothing.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/activity_food.xml" value="0.34427083333333336" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_register_users.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_shopping.xml" value="0.20104166666666667" />
+        <entry key="app/src/main/res/layout/activity_shopping.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_toy.xml" value="0.178125" />
+        <entry key="app/src/main/res/layout/fragment_product.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_shop.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/shop_row.xml" value="0.19895833333333332" />
+        <entry key="app/src/main/res/layout/spinner_layout.xml" value="0.36666666666666664" />
         <entry key="app/src/main/res/menu/navigation.xml" value="0.34479166666666666" />
       </map>
     </option>
