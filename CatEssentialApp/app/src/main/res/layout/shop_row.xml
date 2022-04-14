@@ -22,7 +22,7 @@
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/catfood1"
             android:productImage="@{product.imageUrl}"
-            />
+            android:contentDescription="TODO" />
 
         <TextView
             android:id="@+id/productNameTextView"

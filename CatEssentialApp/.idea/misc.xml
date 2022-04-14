@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/activity_addpaymentdetails.xml" value="0.23867753623188406" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/activity_cart_items.xml" value="0.264" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/activity_food.xml" value="0.1" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/activity_shopping.xml" value="0.536" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/activity_toy.xml" value="0.17300724637681159" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/fragment_order.xml" value="0.17300724637681159" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/fragment_product.xml" value="0.17300724637681159" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/fragment_shop.xml" value="0.17300724637681159" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/listrow.xml" value="0.536" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/shop_row.xml" value="0.264" />
+        <entry key="..\:/HamzaProject/4631s2022-main/CatEssentialApp/app/src/main/res/layout/spinner_layout.xml" value="0.17300724637681159" />
         <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.3609375" />
         <entry key="app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.2078125" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3609375" />
@@ -15,6 +27,7 @@
         <entry key="app/src/main/res/layout/activity_register_users.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_shopping.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_toy.xml" value="0.178125" />
+        <entry key="app/src/main/res/layout/fragment_order.xml" value="0.23020833333333332" />
         <entry key="app/src/main/res/layout/fragment_product.xml" value="0.17864583333333334" />
         <entry key="app/src/main/res/layout/fragment_shop.xml" value="0.17864583333333334" />
         <entry key="app/src/main/res/layout/shop_row.xml" value="0.375" />

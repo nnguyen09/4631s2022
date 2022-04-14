@@ -16,13 +16,14 @@ public class Product {
     private Double price;
     private Boolean isAvailable ;
     private String imageUrl;
-
-    public Product(String id, String name, Double price, Boolean isAvailable, String imageUrl) {
+    private String CategoryName;
+    public Product(String id, String name, Double price, Boolean isAvailable, String imageUrl,String CategoryName) {
         this.id = id;
         this.name = name;
         this.price = price;
         this.isAvailable = isAvailable;
         this.imageUrl = imageUrl;
+       this.CategoryName=CategoryName;
     }
 
     public String getId() {
@@ -65,6 +66,14 @@ public class Product {
         this.imageUrl = imageUrl;
     }
 
+    public String getCategoryName() {
+        return CategoryName;
+    }
+
+    public void setCategoryName(String categoryName) {
+        CategoryName = categoryName;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
@@ -104,4 +113,6 @@ public class Product {
                 .fitCenter()
                 .into(imageView);
     }
+
+
 }

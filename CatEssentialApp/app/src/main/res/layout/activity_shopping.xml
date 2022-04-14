@@ -16,6 +16,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
 
+    <TextView
+        android:id="@+id/cartitemscount"
+        android:layout_width="37dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10sp"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="225dp"
