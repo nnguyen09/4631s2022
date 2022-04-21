@@ -72,6 +72,7 @@ public class ShopListAdapter extends ListAdapter<Product, ShopListAdapter.ShopVi
                 CartRepo.addproductstocart.add(product);
 
                 Intent intent =  new Intent(context, Toy.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
 
 
